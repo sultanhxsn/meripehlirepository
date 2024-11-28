@@ -1,0 +1,58 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: calc(100vh - 80px);
+    text-align: left;
+    background-color: #f4f4f4;
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top : 150px;
+    padding-left: 40px;
+    }
+    .landing-title {
+    font-size: 5rem;
+    font-family: "Modak", sans-serif;
+    font-weight: 5;
+    font-style: light;
+    margin-bottom: -20px;
+    color: #ffffff;
+    -webkit-text-stroke: 2px #ff49a4;
+    text-align: left;
+    }
+    .landing-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #666;
+    max-width: 600px;
+    padding: 0 10px;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: light;
+    text-align: left;
+    margin-bottom: 70px;
+    }
+    .landing-button {
+    padding: 20px 40px;
+    font-size: 1rem;
+    background-color: #ff49a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 180px ;
+    }
+    .landing-button:hover {
+    background-color: #e0009d;
+    }
+
+
+  
+
+

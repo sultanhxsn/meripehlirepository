@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './Styles/App.css'; // Import global styles
+import Navbar from './Components/Navbar';
+import LandingPage from './Components/LandingPage';
+import Form from './Components/Form';
+import Footer from './Components/Footer';
 
-function App() {
+
+function App() 
+{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Navbar />
+    <img src="meow1.png" alt="Description" />
+    <LandingPage />
+    <Form />
+    <Footer />
     </div>
-  );
+    );
 }
-
 export default App;
+
+<img src="meow2.jpg" alt="Description" />
